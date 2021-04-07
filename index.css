@@ -1,3 +1,5 @@
+
+/* reset */
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -6,7 +8,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
-	font-size: 100%;
+	font-size: 62.5%;
 	outline: 0;
 	padding: 0;
 	margin: 0;
@@ -36,9 +38,61 @@ blockquote, q {
 	}
 
     *{
-        box-sizing:border-box;
+        box-sizing: border-box;
         max-width: 100%;
         border: 1px solid black;
     }
+/* tags */
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+header, footer{
+    padding: 2% 10%;
+}
+nav a{
+    width: 17%;
+    margin: 0 7%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.4rem;
+    border-radius: 15px;
+}
+footer{
+    background: #F9E7DC;
+}
 
-.
+/* header */
+.orange{
+    background: #FF764E;
+    color: white;
+}
+.blue{
+    background: #5ED3EB;
+    color: white;
+}
+.yellow{
+    background: #FFCD69;
+    color: white;
+}
+
+/* top */
+.right-head img{
+    margin: 2%;
+    width: 30%;
+    display: inline-block;
+}
+.left-head{
+    display: inline-block;
+    width: 60%;
+}
+
+/* info */
+.brown{
+    background: #DDB9A3;
+    color: white;
+}
