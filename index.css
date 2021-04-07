@@ -44,7 +44,7 @@ blockquote, q {
     }
 
 
-/* tags */
+/* general */
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 2rem;
@@ -85,6 +85,9 @@ footer{
 
 
 /* top */
+.top{
+    text-align: center;
+}
 .left-head{
     display: inline-block;
     width: 25%;
@@ -97,7 +100,6 @@ footer{
 .right-head{
     width: 55%;
     display: inline-block;
-    text-align: center;
 }
 .right-head h1{
     font-size: 6rem;
@@ -136,5 +138,13 @@ footer{
 .fire p, .fire span{
     font-size: 1.6rem;
 }
+span{
+    font-weight: 700;
+}
 
-
+/* bottom */
+.bottom{
+    max-height: 350px;
+    max-width: 100%;
+    overflow:hidden;
+}
