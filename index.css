@@ -40,7 +40,7 @@ blockquote, q {
     *{
         box-sizing: border-box;
         max-width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 /* tags */
 h1{
@@ -81,18 +81,41 @@ footer{
 }
 
 /* top */
-.right-head img{
-    margin: 2%;
-    width: 30%;
-    display: inline-block;
-}
 .left-head{
     display: inline-block;
-    width: 60%;
+    width: 25%;
+    margin: 5%;
 }
+.left-head img{
+    border-radius: 50%;
+    padding: 3%;
+}
+.right-head{
+    width: 55%;
+    display: inline-block;
+    text-align: center;
+}
+.right-head h1{
+    font-size: 6rem;
+    margin: 3%;
+}
+.right-head h2, .right-head p{
+    font-size: 2.5rem;
+    margin: 4%;
+}
+
+
 
 /* info */
 .brown{
     background: #DDB9A3;
     color: white;
+    margin: 0 5%;
+    text-align: center
 }
+.brown p{
+    font-size: 2rem;
+    margin: 2%;
+}
+
+
